@@ -1,18 +1,20 @@
 import React, { Component } from 'react';
 import Home from './screens/Home';
+import Resume from './screens/Resume';
 import './App.css';
 import { Switch, Route, Link } from 'react-router-dom';
 
+
 const Header = () => (
   <header>
-    <nav>
-      <ul>
-        <li><Link to='/'>CONTACT</Link></li>
-        <li><Link to='/about'>ABOUT</Link></li>
-        <li><Link to='/projects'>PROJECTS</Link></li>
-        <li><Link to='/resume'>RESUME</Link></li>
-      </ul>
-    </nav>
+    <div className="navbar">
+      <nav>
+        <Link to='/contact'>CONTACT</Link>
+        <Link to='/about'>ABOUT</Link>
+        <Link to='/projects'>PROJECTS</Link>
+        <Link to='/resume'>RESUME</Link>
+      </nav>
+    </div>
   </header>
 )
 
@@ -20,10 +22,8 @@ const Header = () => (
 const Main = () => (
   <main>
     <Switch>
-      <Route exact path='/' component={Home}/>
-      <Route path='/about' component={Home}/>
-      <Route path='/projects' component={Home}/>
-      <Route path='/resume' component={Home}/>
+      <Route path='/resume' component={Resume}/>
+      <Route exact path='/:id' component={Home}/>
     </Switch>
   </main>
 )

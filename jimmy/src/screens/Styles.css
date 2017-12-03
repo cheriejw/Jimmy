@@ -1,0 +1,22 @@
+.name-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	margin: 10px;
+}
+
+.about-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: blue;
+}
+
+.projects-container {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	margin-left: 10px;
+	margin-right: 10px;
+}

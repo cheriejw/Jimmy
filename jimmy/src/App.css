@@ -22,6 +22,22 @@
   font-size: large;
 }
 
+nav {
+  margin: 10px;
+  margin-left: 2em;
+  margin-right: 2em;
+  padding: 0;
+  display: flex; 
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
