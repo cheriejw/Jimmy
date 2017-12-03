@@ -3,6 +3,7 @@ React for Jimmy
 
 ### Good Resources
 - [React Router (`react-router-dom`)](https://medium.com/@pshrmn/a-simple-react-router-v4-tutorial-7f23ff27adf)
+- [React Router Docs](https://knowbody.github.io/react-router-docs/api/Link.html)
 - [React Training](https://reacttraining.com/react-router/web/example/auth-workflow)
 
 ### Project Reflections
